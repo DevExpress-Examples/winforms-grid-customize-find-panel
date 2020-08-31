@@ -27,7 +27,7 @@ namespace MyXtraGrid
         }
         private Control FindControl(string controlName)
         {
-            return layoutControl1.GetControlByName(controlName);
+            return findLayoutControl.GetControlByName(controlName);
         }
         private void CustomizeButtons()
         {
@@ -55,7 +55,7 @@ namespace MyXtraGrid
         }
         private void CustomizeLayoutControl()
         {
-            layoutControl1.AllowCustomizationMenu = true;
+            findLayoutControl.AllowCustomizationMenu = true;
         }
     }
 }
