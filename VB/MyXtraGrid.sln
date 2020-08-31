@@ -1,4 +1,4 @@
-﻿Microsoft Visual Studio Solution File, Format Version 9.00
+Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MyXtraGrid", "MyXtraGrid\MyXtraGrid.vbproj", "{59F3BF4C-0A26-4C4F-AB24-07B6F38F3A78}"
 	ProjectSection(WebsiteProperties) = preProject
