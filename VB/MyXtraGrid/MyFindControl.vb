@@ -24,7 +24,7 @@ Namespace MyXtraGrid
             CustomizeLayoutControl()
         End Sub
         Private Function FindControl(ByVal controlName As String) As Control
-            Return layoutControl1.GetControlByName(controlName)
+            Return findLayoutControl.GetControlByName(controlName)
         End Function
         Private Sub CustomizeButtons()
             FindControl("btClear").MinimumSize = New Size(100, 0)
@@ -48,7 +48,7 @@ Namespace MyXtraGrid
             End If
         End Sub
         Private Sub CustomizeLayoutControl()
-            layoutControl1.AllowCustomizationMenu = True
+            findLayoutControl.AllowCustomizationMenu = True
         End Sub
     End Class
 End Namespace
