@@ -15,6 +15,10 @@
 
 <p>This example demonstrates how to pass a custom FindControl class descendant to GridView</p>
 
+<b>See also:</b>
+
+[DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
+
 <br/>
 
 
