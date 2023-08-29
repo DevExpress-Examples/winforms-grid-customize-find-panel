@@ -1,5 +1,7 @@
-﻿Namespace MyXtraGrid
-    Partial Public Class Form1
+Namespace MyXtraGrid
+
+    Partial Class Form1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,14 +12,14 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
-
+#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
@@ -29,8 +31,8 @@
             Me.gridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
             Me.gridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
             Me.gridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn()
-            DirectCast(Me.myGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.myGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.myGridControl1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.myGridView1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' myGridControl1
@@ -41,11 +43,11 @@
             Me.myGridControl1.Name = "myGridControl1"
             Me.myGridControl1.Size = New System.Drawing.Size(665, 502)
             Me.myGridControl1.TabIndex = 1
-            Me.myGridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() { Me.myGridView1})
+            Me.myGridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.myGridView1})
             ' 
             ' myGridView1
             ' 
-            Me.myGridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() { Me.gridColumn1, Me.gridColumn2, Me.gridColumn3, Me.gridColumn4})
+            Me.myGridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.gridColumn1, Me.gridColumn2, Me.gridColumn3, Me.gridColumn4})
             Me.myGridView1.GridControl = Me.myGridControl1
             Me.myGridView1.Name = "myGridView1"
             Me.myGridView1.OptionsFind.AlwaysVisible = True
@@ -90,20 +92,22 @@
             Me.Controls.Add(Me.myGridControl1)
             Me.Name = "Form1"
             Me.Text = "Form1"
-            DirectCast(Me.myGridControl1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.myGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.myGridControl1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.myGridView1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
-
         End Sub
 
-        #End Region
+#End Region
+        Private myGridControl1 As MyXtraGrid.MyGridControl
 
-        Private myGridControl1 As MyGridControl
-        Private myGridView1 As MyGridView
+        Private myGridView1 As MyXtraGrid.MyGridView
+
         Private gridColumn1 As DevExpress.XtraGrid.Columns.GridColumn
+
         Private gridColumn2 As DevExpress.XtraGrid.Columns.GridColumn
+
         Private gridColumn3 As DevExpress.XtraGrid.Columns.GridColumn
+
         Private gridColumn4 As DevExpress.XtraGrid.Columns.GridColumn
     End Class
 End Namespace
-
