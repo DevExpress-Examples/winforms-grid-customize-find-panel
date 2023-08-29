@@ -6,7 +6,7 @@
 
 # WinForms Data Grid - Customize the layout of the Find Panel
 
-This example demonstrates how to create a custom Find Panel (`FindControl` descendant) and use it within the `GridView`.
+This example demonstrates how to create a custom Find Panel (the `FindControl` descendant) and use it within the `GridView`.
 
 > **Important**
 >
