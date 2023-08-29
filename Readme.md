@@ -3,8 +3,17 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2806)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# WinForms Data Grid - Customize the layout of the Find Panel
+
+This example demonstrates how to create a custom Find Panel (`FindControl` descendant) and use it within the `GridView`.
+
+> **Important**
+>
+> The example uses internal APIs that might be changed in newer versions.
+
+
+## Files to Review
 
 * [MyGridControl.cs](./CS/MyXtraGrid/Custom%20GridView/MyGridControl.cs) (VB: [MyGridControl.vb](./VB/MyXtraGrid/Custom%20GridView/MyGridControl.vb))
 * [MyGridHandler.cs](./CS/MyXtraGrid/Custom%20GridView/MyGridHandler.cs) (VB: [MyGridHandler.vb](./VB/MyXtraGrid/Custom%20GridView/MyGridHandler.vb))
@@ -14,16 +23,9 @@
 * [Form1.cs](./CS/MyXtraGrid/Form1.cs) (VB: [Form1.vb](./VB/MyXtraGrid/Form1.vb))
 * [MyFindControl.cs](./CS/MyXtraGrid/MyFindControl.cs) (VB: [MyFindControl.vb](./VB/MyXtraGrid/MyFindControl.vb))
 * [Program.cs](./CS/MyXtraGrid/Program.cs) (VB: [Program.vb](./VB/MyXtraGrid/Program.vb))
-<!-- default file list end -->
-# How to customize the Find Panel layout?
 
 
-<p>This example demonstrates how to pass a custom FindControl class descendant to GridView</p>
+## See Also
 
-<b>See also:</b>
-
-[DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
-
-<br/>
-
+* [DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
 
