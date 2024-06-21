@@ -26,6 +26,15 @@ namespace MyXtraGrid {
         public Form1() {
             InitializeComponent();
             myGridControl1.DataSource = CreateTable(20);
+
+            CheckButton showCustomButton = myGridView1.FindPanelItems.AddCheckButton("test", true);
+            showCustomButton.ImageOptions.ImageUri.Uri = "Filter;Size16x16;Svg";
+            showCustomButton.CheckedChanged += ShowCustomButton_CheckedChanged;
+        }
+
+        private void ShowCustomButton_CheckedChanged(object sender, EventArgs e)
+        {
+              MessageBox.Show("CheckButton is clicked");
         }
 
     }
