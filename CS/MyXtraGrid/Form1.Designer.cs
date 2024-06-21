@@ -1,3 +1,6 @@
+using DevExpress.XtraGrid;
+using DevExpress.XtraGrid.Views.Grid;
+
 namespace MyXtraGrid {
     partial class Form1 {
         /// <summary>
@@ -23,8 +26,8 @@ namespace MyXtraGrid {
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.myGridControl1 = new MyXtraGrid.MyGridControl();
-            this.myGridView1 = new MyXtraGrid.MyGridView();
+            this.myGridControl1 = new GridControl();
+            this.myGridView1 = new GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -103,8 +106,8 @@ namespace MyXtraGrid {
 
         #endregion
 
-        private MyGridControl myGridControl1;
-        private MyGridView myGridView1;
+        private GridControl myGridControl1;
+        private GridView myGridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
