@@ -6,22 +6,13 @@
 
 # WinForms Data Grid - Customize the layout of the Find Panel
 
-This example demonstrates how to create a custom Find Panel (a `FindControl` descendant) and use it within the `GridView`.
+This example demonstrates how to add a check button to the Find Panel. For this, it is necessary to call the [AddCheckButton](https://docs.devexpress.com/WindowsForms/DevExpress.XtraLayout.Custom.FindControlItemsCore.AddCheckButton.overloads) method for the [FindPanelItems](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnView.FindPanelItems) collection.
 
-> **Important**
->
-> The example uses internal APIs that might be changed in newer versions.
 
 
 ## Files to Review
 
-* [MyGridControl.cs](./CS/MyXtraGrid/Custom%20GridView/MyGridControl.cs) (VB: [MyGridControl.vb](./VB/MyXtraGrid/Custom%20GridView/MyGridControl.vb))
-* [MyGridHandler.cs](./CS/MyXtraGrid/Custom%20GridView/MyGridHandler.cs) (VB: [MyGridHandler.vb](./VB/MyXtraGrid/Custom%20GridView/MyGridHandler.vb))
-* [MyGridRegistration.cs](./CS/MyXtraGrid/Custom%20GridView/MyGridRegistration.cs) (VB: [MyGridRegistration.vb](./VB/MyXtraGrid/Custom%20GridView/MyGridRegistration.vb))
-* [MyGridView.cs](./CS/MyXtraGrid/Custom%20GridView/MyGridView.cs) (VB: [MyGridViewInfo.vb](./VB/MyXtraGrid/Custom%20GridView/MyGridViewInfo.vb))
-* [MyGridViewInfo.cs](./CS/MyXtraGrid/Custom%20GridView/MyGridViewInfo.cs) (VB: [MyGridViewInfo.vb](./VB/MyXtraGrid/Custom%20GridView/MyGridViewInfo.vb))
 * [Form1.cs](./CS/MyXtraGrid/Form1.cs) (VB: [Form1.vb](./VB/MyXtraGrid/Form1.vb))
-* [MyFindControl.cs](./CS/MyXtraGrid/MyFindControl.cs) (VB: [MyFindControl.vb](./VB/MyXtraGrid/MyFindControl.vb))
 * [Program.cs](./CS/MyXtraGrid/Program.cs) (VB: [Program.vb](./VB/MyXtraGrid/Program.vb))
 
 
