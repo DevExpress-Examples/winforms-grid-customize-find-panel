@@ -1,3 +1,6 @@
+Imports DevExpress.XtraGrid
+Imports DevExpress.XtraGrid.Views.Grid
+
 Namespace MyXtraGrid
 
     Partial Class Form1
@@ -25,8 +28,8 @@ Namespace MyXtraGrid
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
-            Me.myGridControl1 = New MyXtraGrid.MyGridControl()
-            Me.myGridView1 = New MyXtraGrid.MyGridView()
+            Me.myGridControl1 = New GridControl()
+            Me.myGridView1 = New GridView()
             Me.gridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
             Me.gridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
             Me.gridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -86,7 +89,7 @@ Namespace MyXtraGrid
             ' 
             ' Form1
             ' 
-            Me.AutoScaleDimensions = New System.Drawing.SizeF(6F, 13F)
+            Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0F, 13.0F)
             Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
             Me.ClientSize = New System.Drawing.Size(665, 502)
             Me.Controls.Add(Me.myGridControl1)
@@ -98,9 +101,9 @@ Namespace MyXtraGrid
         End Sub
 
 #End Region
-        Private myGridControl1 As MyXtraGrid.MyGridControl
+        Private myGridControl1 As GridControl
 
-        Private myGridView1 As MyXtraGrid.MyGridView
+        Private myGridView1 As GridView
 
         Private gridColumn1 As DevExpress.XtraGrid.Columns.GridColumn
 
